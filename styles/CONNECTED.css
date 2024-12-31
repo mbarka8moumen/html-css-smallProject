@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans',sans-serif; 
+    background-image: url(a.png);
+   
+   
+}
+.logo{
+    background: linear-gradient(45deg, #2e3192, #1bffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-family: serif;
+    float: left;
+    padding-top: .6%;
+    cursor: pointer;
+    position: absolute;
+    left: 120px;
+}
+#vroom{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+   top: 3px;
+   right: 1230px;
+   padding-left: 30PX;
+   border-radius: 50%;
+}
+
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+    margin-left:20px;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    right: 100px;
+    bottom: 120px;
+    animation: moveText 3s infinite;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid  linear-gradient(45deg, #2e3192, #1bffff);
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.RE{
+    width: 100px;
+    height: 40px;
+    background:  linear-gradient(45deg, #2e3192, #1bffff);
+    border: 2px solid  linear-gradient(45deg, #2e3192, #1bffff);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.RE:focus{
+    outline: none;
+}
+#J{
+    position: absolute;
+    height:250px ;
+    width: 300px;
+    left: 40px;
+    top: 95px;
+    transition: transform 0.5s;
+    border-radius: 50%;
+    }
+    #J:hover {
+        transform: scale(1.1);
+    }
+    #F{
+        position: absolute;
+        height:250px ;
+        width: 300px;
+        right: 100px;
+        top: 100px;
+        margin-left: 998px;
+        transition: transform 0.5s;
+        border-radius: 50%;
+    }
+    #F:hover {
+        transform: scale(1.1);
+    }
+    #L{
+        position: absolute;
+        height:250px ;
+        width: 300px;
+        top: 90px;
+        left: 500px;
+        transition: transform 0.5s;
+        border-radius: 50%;
+    }
+    #L:hover {
+        transform: scale(1.1);
+    }
+    #H{
+        position: absolute;
+        height:250px ;
+        width: 300px;
+        right: 100px;
+        top: 850px;
+        left: 500px;
+       transition: transform 0.5s;
+       border-radius: 50%;
+    }
+    #H:hover {
+        transform: scale(1.1);
+    }
+    #A{
+        position: absolute;
+        height:250px ;
+        width: 300px;
+        right: 100px;
+        top: 850px;
+        left: 40px;
+       transition: transform 0.5s;
+       border-radius: 50%;
+    }
+    #A:hover {
+        transform: scale(1.1);
+    }
+    #B{
+        position: absolute;
+        height:250px ;
+        width: 300px;
+        right: 100px;
+        top: 850px;
+        right: 100px;
+       transition: transform 0.5s;
+       border-radius: 50%;
+    }
+    #B:hover {
+        transform: scale(1.1);
+    }
+
+
+
+    .CON1 {
+        background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+        width: 260px;
+        height:300px;
+        position: absolute;
+        top: 400px;
+        left: 40px;
+        border-radius: 10px;
+        padding: 25px;
+        color: beige;
+        transition: transform 0.5s;
+        transform: scale(1.1)
+}
+.CON2 {
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+    width: 260px;
+    height:300px;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    border-radius: 10px;
+    padding: 25px;
+    color: beige;
+    transition: transform 0.5s;
+    transform: scale(1.1)
+}
+.CON3 {
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+    width: 260px;
+    height:300px;
+    position: absolute;
+    top: 400px;
+    left: 950px;
+    border-radius: 10px;
+    padding: 25px;
+    color: beige;
+    transition: transform 0.5s;
+    transform: scale(1.1)
+}
+.CON4{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+    width: 260px;
+    height:300px;
+    position: absolute;
+    top: 1150px;
+    left: 40px;
+    border-radius: 10px;
+    padding: 25px;
+    color: beige;
+    transition: transform 0.5s;
+    transform: scale(1.1)
+}
+.CON5 {
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+    width: 260px;
+    height:300px;
+    position: absolute;
+    top: 1150px;
+    left: 500px;
+    border-radius: 10px;
+    padding: 25px;
+    color: beige;
+    transition: transform 0.5s;
+    transform: scale(1.1)
+}
+
+.CON6 {
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+    width: 260px;
+    height:300px;
+    position: relative;
+    margin-left: 870px;
+    top :975px ;
+    border-radius: 10px;
+    padding: 25px;
+    color: beige;
+    transition: transform 0.5s;
+    transform: scale(1.1)
+}
+
+nav {
+    position: relative;
+    width: 450px;
+    height: 50px;
+    background: #222;
+    border-radius: 8px;
+    display: flex;
+    bottom: 55px;
+    left: 400px;
+    align-items: center;
+}
+nav a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+nav span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background: linear-gradient(45deg, #2e3192, #1bffff);
+    border-radius: 8px;
+    transition: .5s ease;
+}
+nav a:nth-child(1):hover~span {
+    left: 0;
+}
+nav a:nth-child(2):hover~span {
+    left: 95px;
+}
+nav a:nth-child(3):hover~span {
+    left: 189px;
+    width: 110px;
+}
+nav a:nth-child(4):hover~span {
+    left: 298px;
+    width: 115px;
+}
+nav a:nth-child(5):hover~span {
+    left: 413px;
+    width: 110px;
+}
